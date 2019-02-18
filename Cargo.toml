@@ -1,0 +1,24 @@
+[package]
+name = "unwind"
+version = "0.1.0"
+authors = ["OrcaXS Suen <sun16281394@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+postgres = "0.15"
+r2d2 = "0.8.3"
+r2d2_postgres = "0.14.0"
+failure = "0.1.5"
+juniper = "0.11.1"
+
+dotenv = "0.13.0"
+serde = "1.0.88"
+serde_json = "1.0.38"
+serde_derive = "1.0.88"
+chrono = { version = "0.4.6", features = ["serde"] }
+
+actix = "0.7.9"
+actix-web = "0.7.18"
+
+futures = "0.1.25"
+uuid = { version = "0.7.2", features = ["serde", "v4"] }
